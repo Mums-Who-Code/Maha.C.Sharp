@@ -1,8 +1,10 @@
-﻿namespace Set1Task1
+﻿using System;
+
+namespace Set1Task1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hi Everyone");
             Console.Write("This is my first C# code");

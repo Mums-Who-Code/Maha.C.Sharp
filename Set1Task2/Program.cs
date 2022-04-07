@@ -6,12 +6,12 @@ namespace Set1Task2
     {
         static void Main(string[] args)
         {
-            string myName = "Hi, I am C#.";
-            string myAge = "My age is 23.";
-            string myMessage = "I score 99.8% in the programming.";
-            Console.WriteLine(myName);
-            Console.WriteLine(myAge);
-            Console.WriteLine(myMessage);
+            string myName = "C#";
+            int myAge = 23;
+            double myScore = 99.8;
+            Console.WriteLine("Hi, I am {0}.", myName);
+            Console.WriteLine("My age is {0}.",myAge);
+            Console.WriteLine("I score {0}% in the programming.",myScore);
         }
     }
 }
